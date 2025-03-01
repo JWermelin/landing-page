@@ -47,6 +47,12 @@ padding:50px;
 background-color:grey;
 }
 
+.random{
+width:500px;
+flex-shrink:0;
+text-align:center;
+}
+
 .groups{
 display:flex;
 }
@@ -55,16 +61,13 @@ display:flex;
 padding:20px;
 display:flex;
 flex-direction:column;
-justify-content:center;
 text-align:center;
 }
 
 .placeholder-outline{
-    display:flex;
     flex-shrink:0;
     width:100px;
     height:100px;
-    padding:50px;
     border-width:2px;
     border-style:solid;
     border-color:#3882f6;
@@ -81,7 +84,7 @@ padding:100px 150px;
 .container.white{
 display:flex;
 flex-direction:column;
-padding:20px 150px;
+padding:20px 500px;
 }
 
 a {
