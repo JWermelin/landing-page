@@ -15,8 +15,13 @@ background-color: #1f2937;
 color: #f9faf8;
 border: 5px;
 border-color:#1f2937;
-padding-left:200px;
-padding-right:200px;
+padding:0px 150px;
+}
+
+.logo{
+display:flex;
+flex-shrink:0;
+align-items:center;
 }
 
 .links{
@@ -34,19 +39,49 @@ padding-right:50px;
 
 .placeholder{
 display:flex;
+flex-shrink:0;
+width:300px;
+height:200px;
 align-items:center;
 padding:50px;
-padding-right:50px;
 background-color:grey;
 }
+
+.groups{
+display:flex;
+}
+
+.group{
+padding:20px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+text-align:center;
+}
+
+.placeholder-outline{
+    display:flex;
+    flex-shrink:0;
+    width:100px;
+    height:100px;
+    padding:50px;
+    border-width:2px;
+    border-style:solid;
+    border-color:#3882f6;
+    border-radius:10px;
+    }    
 
 .container{
 display:flex;
 justify-content:space-between;
-padding-top:100px;
-padding-right:200px;
-padding-left:200px;
-padding-bottom:100px;
+align-items:center;
+padding:100px 150px;
+}
+
+.container.white{
+display:flex;
+flex-direction:column;
+padding:20px 150px;
 }
 
 a {
@@ -62,6 +97,18 @@ background-color: #1f2937;
 color: #f9faf8;
 }
 
+.grey{
+background-color: #e5e7eb;
+display:flex;
+flex-direction:column;
+}
+
+.quote{
+color: #1f2937;
+font-style: italic;
+font-style: light;
+}
+
 p {
 text-size-adjust: 18px;
 }
@@ -74,9 +121,7 @@ button {
 background-color: #3882f6;
 color: #f9faf8;
 border:0;
-padding: 10px;
-padding-left:20px;
-padding-right:20px;
+padding: 10px 20px;
 border-radius:5px;
 }
 
