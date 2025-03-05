@@ -34,7 +34,10 @@ display:flex;
 flex-direction:column;
 display:inline-block;
 justify-content:end;
+color: #f9faf8;
 padding-right:50px;
+font-size:48px;
+font-weight:900px;
 }
 
 .placeholder{
@@ -50,7 +53,10 @@ background-color:grey;
 .random{
 width:500px;
 flex-shrink:0;
+color: #1f2937;
 text-align:center;
+font-weight:900;
+font-size:36px;
 }
 
 .groups{
@@ -104,12 +110,13 @@ color: #f9faf8;
 background-color: #e5e7eb;
 display:flex;
 flex-direction:column;
-padding:100px 150px;
 }
 
 .quote{
 color: #1f2937;
 font-style: italic;
+font-size:36px;
+font-weight:100;
 }
 
 p {
@@ -128,3 +135,4 @@ padding: 10px 20px;
 border-radius:5px;
 }
 
+# kolla över att alla storlekar stämmer
