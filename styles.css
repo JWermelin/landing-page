@@ -29,15 +29,25 @@ display:flex;
 align-items:center;
 }
 
-.hero{
+.hero-container{
 display:flex;
 flex-direction:column;
 display:inline-block;
 justify-content:end;
-color: #f9faf8;
 padding-right:50px;
-font-size:48px;
-font-weight:900px;
+}
+
+.hero-headline{
+font-size: 48px;
+font-weight: 900;
+color: #f9faf8;
+display:inline-block;
+}
+
+.hero-paragraph{
+font-size: 18px;
+color: #e5e7eb;
+display:inline-block;
 }
 
 .placeholder{
@@ -48,6 +58,7 @@ height:200px;
 align-items:center;
 padding:50px;
 background-color:grey;
+color: #f9faf8;
 }
 
 .random{
@@ -103,13 +114,13 @@ padding:18px;
 
 .blue{
 background-color: #1f2937;
-color: #f9faf8;
 }
 
 .grey{
 background-color: #e5e7eb;
 display:flex;
 flex-direction:column;
+padding:20px 500px;
 }
 
 .quote{
@@ -117,6 +128,11 @@ color: #1f2937;
 font-style: italic;
 font-size:36px;
 font-weight:100;
+}
+
+.thor{
+color: #1f2937;
+align-self:right;
 }
 
 p {
@@ -132,7 +148,9 @@ background-color: #3882f6;
 color: #f9faf8;
 border:0;
 padding: 10px 20px;
+margin-top:10px;
 border-radius:5px;
+display:block;
 }
 
 # kolla över att alla storlekar stämmer
