@@ -22,6 +22,8 @@ padding:0px 150px;
 display:flex;
 flex-shrink:0;
 align-items:center;
+font-size:24px;
+font-weight:900;
 }
 
 .links{
@@ -62,7 +64,6 @@ color: #f9faf8;
 }
 
 .random{
-width:500px;
 flex-shrink:0;
 color: #1f2937;
 text-align:center;
@@ -101,7 +102,6 @@ padding:100px 150px;
 .container.white{
 display:flex;
 flex-direction:column;
-padding:20px 500px;
 }
 
 a {
@@ -120,7 +120,6 @@ background-color: #1f2937;
 background-color: #e5e7eb;
 display:flex;
 flex-direction:column;
-padding:20px 500px;
 }
 
 .quote{
@@ -131,12 +130,14 @@ font-weight:100;
 }
 
 .thor{
+padding-top:20px;
 color: #1f2937;
-align-self:right;
+align-self:flex-end;
+font-weight:900;
 }
 
 p {
-text-size-adjust: 18px;
+width:100px;
 }
 
 p.blue{
@@ -146,11 +147,41 @@ color: #e5e7eb;
 button {
 background-color: #3882f6;
 color: #f9faf8;
-border:0;
+border-style:solid;
+border-color:#f9faf8;
+border-width:1px;
 padding: 10px 20px;
 margin-top:10px;
 border-radius:5px;
 display:block;
 }
 
-# kolla över att alla storlekar stämmer
+.blue-box {
+display:flex;
+background-color:#3882f6;
+border-radius:5px;
+padding:50px 50px;
+align-items:center;
+}
+
+.call-paragraph{
+display:flex;
+flex-direction:column;
+padding-right:50px;
+}
+
+.call{
+font-size:18px;
+font-weight:700;
+color: #f9faf8;
+}
+
+.call-paragraph{
+color:#e5e7eb;
+}
+
+.footer{
+display:flex;
+padding:20px 20px;
+justify-content:center;
+}
